@@ -10,7 +10,7 @@ test: build
 	./validator
 
 lint:
-	cppcheck --enable=all --suppress=unusedFunction --suppress=missingIncludeSystem --error-exitcode=1 prime_utils.c test_app.c
+	cppcheck --enable=all --suppress=missingIncludeSystem --error-exitcode=1 prime_utils.c test_app.c
 
 clean:
 	rm -f validator *.tar.gz
