@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 
 /**
  * @brief Kiểm tra một số có phải là số nguyên tố hay không.
